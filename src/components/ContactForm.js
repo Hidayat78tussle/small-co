@@ -1,12 +1,12 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
-
+import '../../src/App.css'; 
 import '../../src/App.css'; 
 const ContactForm = () => {
   return (
     <div className="container py-5 mt-4">
-      <div className="text-center mb-4">
+      <div className="text-center mb-4 bg-custom text-white">
         <h1 className="h3">Contact Information Form</h1>
         <p>Please fill in all required fields marked with an asterisk (*)</p>
       </div>
