@@ -38,7 +38,7 @@ const FinancialDataEntry = () => {
     return (
         <div className="container py-5 mt-4">
             <div className="card shadow-sm">
-                <div className="card-header bg-black text-white">
+                <div className="card-header bg-custom text-white">
                     <h1 className="h5 mb-0">Financial Data Entry </h1>
                 </div>
 
